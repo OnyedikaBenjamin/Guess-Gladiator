@@ -1,6 +1,6 @@
 'use strict';
 
-let secretNumber=Math.trunc(Math.random() * 9) +1;
+let secretNumber=Math.trunc(Math.random() * 19) +1;
 let matches =(secretNumber, userGuess)=>{return secretNumber===userGuess};
 let highScore=document.querySelector('.highscore').textContent;
 let score=document.querySelector('.score').textContent;
