@@ -48,5 +48,7 @@ document.querySelector('.again').addEventListener(
             document.querySelector('.score').textContent=20;
             score=20,
             document.querySelector('.guess').value=''
+            secretNumber=Math.trunc(Math.random() * 19) +1;
+
     }
 )
